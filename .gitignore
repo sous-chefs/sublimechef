@@ -1,2 +1,5 @@
 # Ignore personal Sublime Text 2 workspace
 *.sublime-workspace
+
+# Mac OS X cruft
+.DS_Store
