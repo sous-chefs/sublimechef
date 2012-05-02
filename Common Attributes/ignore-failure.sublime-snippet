@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ignore_failure ${1:true}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ignoref</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>ignore_failure true</description>
+</snippet>

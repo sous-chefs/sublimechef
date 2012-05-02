@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+retries ${1:1}
+retry_delay ${2:2}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>retries</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>retries and retry_delay</description>
+</snippet>
