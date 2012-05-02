@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+file "${1:name}" do
+	action :${2:create}
+	path "${3:path}"
+	backup ${4:5}
+	owner "${5:root}"
+	group "${6:root}"
+	mode "${7:0644}"
+	content "${8:content here}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>filef</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>file full</description>
+</snippet>
