@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+directory "${1:name}" do
+	owner "root"
+	group "root"
+	mode "0755"
+	action :create
+	recursive true
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>directoryr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>directory recursive</description>
+</snippet>
