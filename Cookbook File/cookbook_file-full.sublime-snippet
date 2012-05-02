@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+cookbook_file "${1:name}" do
+	action :${2:create}
+	path "${3:path}"
+	source "${4:source}"
+	user "${5:root}"
+	group "${6:root}"
+	mode "${7:0644}"
+	backup ${8:5}
+	cookbook "${9:cookbook}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cookbook_filef</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>cookbook_file full</description>
+</snippet>
