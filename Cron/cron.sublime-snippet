@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+cron "${1:name}" do
+	hour "${2:5}"
+	minute "${3:0}"
+	command "${4:/bin/true}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cron</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>cron</description>
+</snippet>
