@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+subscribes :${1:restart}, resources(:${2:template} => "${3:name}"), :immediatly
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>subscribesi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>subscribes immediatly</description>
+</snippet>

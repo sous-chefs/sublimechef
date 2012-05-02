@@ -1,0 +1,17 @@
+{
+	"scope": "source.ruby",
+
+	"completions":
+	[
+		"package",
+		"template",
+		"cookbook_file",
+		"service",
+		"execute",
+		"directory",
+		"not_if",
+		"only_if",
+		"notifies",
+		"subscribes"
+	]
+}

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+notifies :${1:restart}, resources(:${2:service} => [ "${3:name1}", "${0:name2}" ])
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>notifiesm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>notifies multiple</description>
+</snippet>

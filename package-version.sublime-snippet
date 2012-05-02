@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+package "${1:name}" do
+	action :${2:install}
+	version "${3:1.0-1}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>packagev</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>package version</description>
+</snippet>

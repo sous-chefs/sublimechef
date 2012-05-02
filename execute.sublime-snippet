@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+execute "${1:name}" do
+  command "${2:ls -la}"
+  creates "${3:/tmp/something}"
+  action :${4:run}
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>execute</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>execute</description>
+</snippet>

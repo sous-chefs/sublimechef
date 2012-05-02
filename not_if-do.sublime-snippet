@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+not_if do
+	$0
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>not_ifd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>not_if do</description>
+</snippet>
