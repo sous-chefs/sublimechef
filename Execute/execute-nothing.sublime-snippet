@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 execute "${1:name}" do
-  command "${2:ls -la}"
-  action :${4:nothing}
+	command "${2:ls -la}"
+	action :${3:nothing}
 end
 
 ]]></content>
