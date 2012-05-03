@@ -4,9 +4,9 @@ SublimeChef
 A Sublime Text 2 Package for authoring Chef related files.
 
 This Package provides several code snippets designed to make writing chef recipes faster and even more fun. 
-Each snippet has sensible defaults, carefully chosen placeholders, and several variations to cover allmost all of your recipe needs.
+Each snippet has sensible defaults, carefully chosen placeholders, and several variations to cover almost all of your recipe needs.
 
-Maybe this is better explained with a [video demo](http://example.net/).
+Maybe this is better explained with a [youtube demo video](http://www.youtube.com/watch?v=4VtDj_ar1Xg).
 
 
 Install
