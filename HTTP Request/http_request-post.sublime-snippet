@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+authorization = "Basic #{Base64.encode64('username:password')}"
+http_request "${1:posting data}" do
+	action :post
+	url "${2:http://example.com/check_in}"
+	message ${3::some => "data"}
+	headers (${4:\{"AUTHORIZATION" => authorization\}})
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>http_requestp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>http_request post</description>
+</snippet>

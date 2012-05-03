@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+http_request "${1:some message}" do
+	url "${2:http://example.com/check_in}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>http_request</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>http_request</description>
+</snippet>

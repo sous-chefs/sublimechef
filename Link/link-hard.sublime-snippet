@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+link "${1:/tmp/passwd}" do
+	to "${2:/etc/passwd}"
+	link_type :hard
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>linkh</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>link hard</description>
+</snippet>

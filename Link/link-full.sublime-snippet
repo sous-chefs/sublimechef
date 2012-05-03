@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+link "${1:/tmp/passwd}" do
+	to "${2:/etc/passwd}"
+	link_type :${3:symbolic}
+	owner "${4:root}"
+	group "${5:root}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>linkf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>link full</description>
+</snippet>
