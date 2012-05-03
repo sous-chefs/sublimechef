@@ -1,17 +1,17 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 script "${1:install something}" do
-  interpreter "${2:bash}"
-  user "${3:root}"
-  cwd "${4:/tmp}"
-  code <<-EOH
-  $0
-  EOH
+	interpreter "${2:bash}"
+	user "${3:root}"
+	cwd "${4:/tmp}"
+	code <<-EOH
+	$0
+	EOH
 end
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>script</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.ruby</scope>
-  <description>script</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>script</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>script</description>
 </snippet>

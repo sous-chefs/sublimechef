@@ -1,16 +1,16 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 mdadm "${1:/dev/md0}" do
-  devices [ ${2:"/dev/sda", "/dev/sdb"} ]
-  level ${3:1}
-  chunk ${4:64}
-  action [ ${5::create, :assemble} ]
+	devices [ ${2:"/dev/sda", "/dev/sdb"} ]
+	level ${3:1}
+	chunk ${4:64}
+	action [ ${5::create, :assemble} ]
 end
 
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mdadm</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.ruby</scope>
-  <description>mdadm</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mdadm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>mdadm</description>
 </snippet>
