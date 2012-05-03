@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+user "${1:random}" do
+	action :create
+	comment "${2:Random User}"
+	uid ${3:1000}
+	gid "${4:users}"
+	home "${5:/home/random}"
+	shell "${6:/bin/zsh}"
+	password "${7:\$1\$JJsvHslV\$szsCjVEroftprNn4JHtDi.}"
+	supports :manage_home => true 
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>user</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>user</description>
+</snippet>
