@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+git "${1:/home/user/deployment}" do
+	repository "${2:git@github.com:gitsite/deployment.git}"
+	reference "${3:master}"
+	user "${4:user}"
+	group "${5:test}"
+	action :sync
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>git</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>git</description>
+</snippet>
