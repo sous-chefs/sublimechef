@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+mount "${1:/mnt/local}" do
+	device "${2:/dev/sdb1}"
+	fstype "${3:ext3}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mount</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>mount</description>
+</snippet>

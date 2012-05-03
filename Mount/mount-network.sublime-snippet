@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+mount "${1:/mnt/local}" do
+	device "${2:nas1prod:/export/web_sites}"
+	fstype "${3:nfs}"
+	options "${4:rw}"
+	action [${5::mount, :enable}]
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mountn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>mount network</description>
+</snippet>
