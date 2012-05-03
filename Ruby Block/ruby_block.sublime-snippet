@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+ruby_block "${1:reload client config}" do
+	block do
+		${0:Chef::Config.from_file("/etc/chef/client.rb")}
+	end
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ruby_block</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>ruby_block</description>
+</snippet>
