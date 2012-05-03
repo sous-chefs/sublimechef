@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 provider Chef::Provider::${1:Package::Rubygems}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>provider</tabTrigger>

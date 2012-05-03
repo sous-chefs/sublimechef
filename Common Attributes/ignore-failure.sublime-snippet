@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 ignore_failure ${1:true}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ignoref</tabTrigger>

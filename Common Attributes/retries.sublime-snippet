@@ -2,7 +2,6 @@
 	<content><![CDATA[
 retries ${1:1}
 retry_delay ${2:2}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>retries</tabTrigger>

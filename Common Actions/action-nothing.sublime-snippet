@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 action :${1:nothing}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>actionn</tabTrigger>

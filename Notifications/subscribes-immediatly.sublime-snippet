@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 subscribes :${1:restart}, "${2:template}[${3:name}]", :immediatly
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>subscribesi</tabTrigger>
