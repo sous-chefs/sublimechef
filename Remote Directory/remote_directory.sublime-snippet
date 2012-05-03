@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+remote_directory "${1:/tmp/remote_something}" do
+	source "${2:something}"
+	files_owner "${3:root}"
+	files_group "${4:root}"
+	files_mode "${5:0644}"
+	owner "${6:root}"
+	group "${7:root}"
+	mode "${8:0755}"
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>remote_directory</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>remote_directory</description>
+</snippet>
