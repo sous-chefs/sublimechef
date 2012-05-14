@@ -12,9 +12,8 @@ Maybe this is better explained with a [youtube demo video](http://www.youtube.co
 Install
 -------
 
-*Not available in Package Control yet, you must install this package manually for now.*
-~~If you have Package Control installed in Sublime Text 2 just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Pallete.
-Start typing 'install' to select 'Package Control: Install Package', then search for Chef and select it. That's it.~~
+If you have Package Control installed in Sublime Text 2 just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Pallete.
+Start typing 'install' to select 'Package Control: Install Package', then search for Chef and select it. That's it.
 
 You can also install this package manually by entering the Packages directory of Sublime Text 2 and issuing on a terminal:
     
