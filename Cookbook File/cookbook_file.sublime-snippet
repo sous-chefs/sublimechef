@@ -2,7 +2,7 @@
 	<content><![CDATA[
 cookbook_file "${1:name}" do
 	source "${2:source}"
-	user "root"
+	owner "root"
 	group "root"
 	mode "0644"
 end
