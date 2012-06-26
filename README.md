@@ -75,6 +75,9 @@ These are the available completions:
 	packager
 	packagev
 	package
+	remote_filef
+	remote_filem
+	remote_file
 	remote_directoryf
 	remote_directory
 	ruby_block

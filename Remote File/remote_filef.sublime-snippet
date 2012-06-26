@@ -1,17 +1,19 @@
 <snippet>
   <content><![CDATA[
 remote_file "${1:/tmp/remote_file}" do
-  owner "${2:root}"
-  group "${3:root}"
-  mode "${4:0644}"
-  source "${5:http://www.example.com/remote_file}"
-  checksum "${6:sha256checksum}"
+  action ${2::create}
+  backup ${3:5}
+  owner "${4:root}"
+  group "${5:root}"
+  mode "${6:0644}"
+  source "${7:http://www.example.com/remote_file}"
+  checksum "${8:sha256checksum}"
 end
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>remote_file</tabTrigger>
+  <tabTrigger>remote_filef</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.ruby</scope>
-  <description>remote_file</description>
+  <description>remote_file full</description>
 </snippet>
