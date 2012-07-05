@@ -62,6 +62,8 @@ These are the available completions:
 	logd
 	log
 	mdadm
+	metadataf
+	metadata
 	mountf
 	mountl
 	mountn
