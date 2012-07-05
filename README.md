@@ -55,6 +55,7 @@ These are the available completions:
 	group
 	http_requestp
 	http_request
+	include_recipe
 	linkf
 	linkh
 	link
