@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-notifies :${1:restart}, "${2:service}[${3:name}]", :immediatly
+notifies :${1:restart}, "${2:service}[${3:name}]", :immediately
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>notifiesi</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>notifies immediatly</description>
+	<description>notifies immediately</description>
 </snippet>
