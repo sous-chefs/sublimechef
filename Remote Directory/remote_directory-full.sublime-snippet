@@ -5,10 +5,10 @@ remote_directory "${1:/tmp/remote_something}" do
 	files_backup ${3:10}
 	files_owner "${4:root}"
 	files_group "${5:root}"
-	files_mode "${6:0644}"
+	files_mode ${6:00644}
 	owner "${7:root}"
 	group "${8:root}"
-	mode "${9:0755}"
+	mode ${9:00755}
 	cookbook ${10:nil}
 	purge ${11:false}
 	overwrite ${12:true}
