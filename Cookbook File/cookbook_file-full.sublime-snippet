@@ -6,7 +6,7 @@ cookbook_file "${1:name}" do
 	source "${4:source}"
 	owner "${5:root}"
 	group "${6:root}"
-	mode "${7:0644}"
+	mode ${7:00644}
 	backup ${8:5}
 	cookbook "${9:cookbook}"
 end

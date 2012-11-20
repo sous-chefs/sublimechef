@@ -6,7 +6,7 @@ file "${1:name}" do
 	backup ${4:5}
 	owner "${5:root}"
 	group "${6:root}"
-	mode "${7:0644}"
+	mode ${7:00644}
 	content "${8:content here}"
 end
 

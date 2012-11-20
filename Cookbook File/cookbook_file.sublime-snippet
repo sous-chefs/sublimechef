@@ -4,7 +4,7 @@ cookbook_file "${1:name}" do
 	source "${2:source}"
 	owner "root"
 	group "root"
-	mode "0644"
+	mode 00644
 end
 
 ]]></content>
