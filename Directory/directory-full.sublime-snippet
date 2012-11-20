@@ -4,7 +4,7 @@ directory "${1:name}" do
 	action :${2:create}
 	owner "${3:root}"
 	group "${4:root}"
-	mode "${5:0755}"
+	mode ${5:00755}
 	path "${6:name}"
 	recursive ${7:false}
 end
