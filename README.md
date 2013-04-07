@@ -35,6 +35,8 @@ These are the available completions:
 	not_if
 	only_ifd
 	only_if
+	ark
+	arkf
 	cookbook_filef
 	cookbook_file
 	cronf
