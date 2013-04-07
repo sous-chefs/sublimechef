@@ -1,11 +1,12 @@
 <snippet>
 	<content><![CDATA[
 database_user "${1:name}" do
-  connection sql_server_connection_info
-  password "${2:password}"
-  provider Chef::Provider::Database::SqlServerUser
-  action :create
+	connection sql_server_connection_info
+	password "${2:password}"
+	provider Chef::Provider::Database::SqlServerUser
+	action :create
 end
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>database_user_sql_server</tabTrigger>
