@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+ark "${1:name}" do
+	url "${2:http://someurl.example.com/tarball.tar.gz}"
+	version "${3:2.2.0}"
+	checksum "${4:89ba5fde0c596db388c3bbd265b63007a9cc3df3a8e6d79a46780c1a39408cb5}"
+	action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ark</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>ark</description>
+</snippet>
+
