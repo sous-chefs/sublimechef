@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+sql_server_connection_info = \{
+    :host => "${1:localhost}",
+    :port => node['sql_server']['port'],
+    :username => "${2:sa}",
+    :password => node['sql_server']['server_sa_password']
+\}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sql_server_connection_info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>sql_server_connection_info</description>
+</snippet>

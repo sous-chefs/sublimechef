@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+mysql_connection_info = \{
+    :host => "${1:localhost}",
+    :username => "${2:root}",
+    :password => node['mysql']['server_root_password']
+\}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mysql_connection_info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>mysql_connection_info</description>
+</snippet>

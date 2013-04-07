@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+database "${1:name}" do
+  connection sql_server_connection_info
+  provider Chef::Provider::Database::SqlServer
+  action :create
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>database_sql_server</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>database_sql_server</description>
+</snippet>

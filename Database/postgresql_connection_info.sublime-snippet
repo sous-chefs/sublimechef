@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+postgresql_connection_info = \{
+    :host => "${1:localhost}",
+    :port => node['postgresql']['config']['port'],
+    :username => "${2:postgres}",
+    :password => node['postgresql']['password']['postgres']
+\}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>postgresql_connection_info</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>postgresql_connection_info</description>
+</snippet>

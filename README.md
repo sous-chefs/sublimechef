@@ -39,6 +39,12 @@ These are the available completions:
 	cookbook_file
 	cronf
 	cron
+    database_mysql
+    database_postgres
+    database_sql
+    database_user_mysql
+    database_user_postgres
+    database_user_sql
 	deploy
 	directoryf
 	directoryr
@@ -68,6 +74,7 @@ These are the available completions:
 	mountl
 	mountn
 	mount
+	mysql_connection_info
 	notifiesi
 	notifies
 	subscribesi
@@ -78,6 +85,7 @@ These are the available completions:
 	packager
 	packagev
 	package
+	postgresql_connection_info
 	remote_filef
 	remote_filem
 	remote_file
@@ -94,6 +102,7 @@ These are the available completions:
 	script
 	servicep
 	service
+    sql_server_connection_info
 	templatev
 	template
 	user
