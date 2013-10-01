@@ -4,7 +4,7 @@ template "${1:name}" do
 	source "${2:source}.erb"
 	owner "root"
 	group "root"
-	mode 00644
+	mode "0644"
 	variables( ${3::config_var => node[:configs][:config_var]} )
 end
 
