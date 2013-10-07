@@ -5,7 +5,7 @@ remote_file "${1:/tmp/remote_file}" do
   backup ${3:5}
   owner "${4:root}"
   group "${5:root}"
-  mode ${6:00644}
+  mode "${6:0644}"
   source "${7:http://www.example.com/remote_file}"
   checksum "${8:sha256checksum}"
 end
