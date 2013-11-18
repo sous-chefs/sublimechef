@@ -1,11 +1,12 @@
 <snippet>
   <content><![CDATA[
-maintainer       "${1:YOUR_COMPANY_NAME}"
-maintainer_email "${2:YOUR_EMAIL}"
-license          "${3:All rights reserved}"
-description      "${4:Installs/Configures example}"
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
-version          "${5:0.0.1}"
+name             "${1:example}"
+maintainer       "${2:YOUR_COMPANY_NAME}"
+maintainer_email "${3:YOUR_EMAIL}"
+license          "${4:All rights reserved}"
+description      "${5:Installs/Configures example}"
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          "${6:0.1.0}"
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
