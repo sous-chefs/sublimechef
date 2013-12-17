@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-mdadm "${1:/dev/md0}" do
-	devices [ ${2:"/dev/sda", "/dev/sdb"} ]
+mdadm '${1:/dev/md0}' do
+	devices [ ${2:'/dev/sda', '/dev/sdb'} ]
 	level ${3:1}
 	chunk ${4:64}
 	action [ ${5::create, :assemble} ]

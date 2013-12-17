@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-erl_call "${1:list names}" do
-	code "${2:net_adm:names().}"
+erl_call '${1:list names}' do
+	code '${2:net_adm:names().}'
 	distributed ${3:false}
-	node_name "${4:chef@localhost}"
+	node_name '${4:chef@localhost}'
 end
 
 ]]></content>

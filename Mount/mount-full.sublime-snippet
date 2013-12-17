@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-mount "${1:/mnt/volume1}" do
+mount '${1:/mnt/volume1}' do
 	action [${2::mount, :enable}]
-	device "${3:/dev/sda}"
+	device '${3:/dev/sda}'
 	device_type :${4:device}
-	fstype "${5:xfs}"
-	options "${6:rw}"
+	fstype '${5:xfs}'
+	options '${6:rw}'
 	dump ${7:0}
 	pass ${8:2}
 end

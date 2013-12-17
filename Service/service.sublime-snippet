@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-service "${1:name}" do
+service '${1:name}' do
 	supports :status => ${2:true}, :restart => ${3:true}, :reload => ${4:true}
 	action ${5:[ :enable, :start ]}
 end
