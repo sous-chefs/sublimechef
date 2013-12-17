@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-git "${1:/home/user/deployment}" do
-	repository "${2:git@github.com:gitsite/deployment.git}"
-	reference "${3:master}"
-	user "${4:user}"
-	group "${5:test}"
+git '${1:/home/user/deployment}' do
+	repository '${2:git@github.com:gitsite/deployment.git}'
+	reference '${3:master}'
+	user '${4:user}'
+	group '${5:test}'
 	action :sync
 end
 

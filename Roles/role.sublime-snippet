@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
-name "${1:role name}"
-description "${2:Description for the role}"
-run_list ${3:"role[example]", "recipe[example]"}
-override_attributes ${4::attribute => "example"}
+name '${1:role name}'
+description '${2:Description for the role}'
+run_list ${3:'role[example]', 'recipe[example]'}
+override_attributes ${4::attribute => 'example'}
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

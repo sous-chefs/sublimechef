@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-script "${1:install something}" do
-	interpreter "${2:bash}"
-	user "${3:root}"
-	cwd "${4:/tmp}"
+script '${1:install something}' do
+	interpreter '${2:bash}'
+	user '${3:root}'
+	cwd '${4:/tmp}'
 	code <<-EOH
 	$0
 	EOH

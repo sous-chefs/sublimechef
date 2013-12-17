@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-cookbook_file "${1:name}" do
-	source "${2:source}"
-	owner "root"
-	group "root"
-	mode "0644"
+cookbook_file '${1:name}' do
+	source '${2:source}'
+	owner 'root'
+	group 'root'
+	mode '0644'
 end
 
 ]]></content>
