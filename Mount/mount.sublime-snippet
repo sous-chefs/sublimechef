@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-mount "${1:/mnt/local}" do
-	device "${2:/dev/sdb1}"
-	fstype "${3:ext3}"
+mount '${1:/mnt/local}' do
+	device '${2:/dev/sdb1}'
+	fstype '${3:ext3}'
 end
 
 ]]></content>

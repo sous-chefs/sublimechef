@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-package "${1:name}" do
-	action :${2:install}
-	version "${3:1.0-1}"
+package '${1:name}' do
+	action  :${2:install}
+	version '${3:1.0-1}'
 end
 
 ]]></content>

@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-directory "${1:name}" do
-	owner "root"
-	group "root"
-	mode "0755"
-	action :create
+directory '${1:name}' do
+	owner     '${2:root}'
+	group     '${3:root}'
+	mode      ${4:0755}
+	action    :${5:create}
 	recursive true
 end
 
