@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-remote_directory "${1:/tmp/remote_something}" do
-	source "${2:something}"
-	files_owner "${3:root}"
-	files_group "${4:root}"
-	files_mode "${5:0644}"
-	owner "${6:root}"
-	group "${7:root}"
-	mode "${8:0755}"
+remote_directory '${1:/tmp/remote_something}' do
+	source      '${2:something}'
+	files_owner '${3:root}'
+	files_group '${4:root}'
+	files_mode  '${5:0644}'
+	owner       '${6:root}'
+	group       '${7:root}'
+	mode        ${8:0755}
 end
 
 ]]></content>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-log ("${0:your string to log}") { level :debug }
+log ('${0:your string to log}'') { level :debug }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>logd</tabTrigger>
