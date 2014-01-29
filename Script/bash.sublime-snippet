@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-bash "${1:install something}" do
-	user "${2:root}"
-	cwd "${3:/tmp}"
+bash '${1:install something}' do
+	user '${2:root}'
+	cwd  '${3:/tmp}'
 	code <<-EOH
 	$0
 	EOH

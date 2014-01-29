@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-remote_file "${1:/tmp/remote_file}" do
+remote_file '${1:/tmp/remote_file}' do
   action ${2::create_if_missing}
-  owner "${3:root}"
-  group "${4:root}"
-  mode "${5:0644}"
-  source "${6:http://www.example.com/remote_file}"
+  owner  '${3:root}'
+  group  '${4:root}'
+  mode   ${5:0644}
+  source '${6:http://www.example.com/remote_file}'
 end
 
 ]]></content>

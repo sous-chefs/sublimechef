@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-ohai "reload" do
+ohai 'reload' do
 	action :reload
-	plugin "${1:passwd}"
+	plugin '${1:passwd}'
 end
 
 ]]></content>

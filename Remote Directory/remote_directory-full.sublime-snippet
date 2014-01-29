@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
-remote_directory "${1:/tmp/remote_something}" do
-	source "${2:something}"
+remote_directory '${1:/tmp/remote_something}' do
+	source       '${2:something}'
 	files_backup ${3:10}
-	files_owner "${4:root}"
-	files_group "${5:root}"
-	files_mode "${6:0644}"
-	owner "${7:root}"
-	group "${8:root}"
-	mode "${9:0755}"
-	cookbook ${10:nil}
-	purge ${11:false}
-	overwrite ${12:true}
+	files_owner  '${4:root}'
+	files_group  '${5:root}'
+	files_mode   '${6:0644}'
+	owner        '${7:root}'
+	group        '${8:root}'
+	mode         ${9:0755}
+	cookbook     ${10:nil}
+	purge        ${11:false}
+	overwrite    ${12:true}
 end
 
 ]]></content>
