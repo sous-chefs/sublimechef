@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+apt_repository '${1:repo_name}' do
+	uri 'http://${2:uri}'
+	distribution "#{node['lsb_codename']}"
+	components [ 'main' ]
+	arch 'amd64'
+	trusted false
+	deb_src false
+	keyserver 'http://${3:server}'
+	key 'http://${4:server/file}.key'
+	key_proxy '${5:proxy-server}'
+	cookbook nil
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apt_repositoryf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>apt_repository full</description>
+</snippet>
