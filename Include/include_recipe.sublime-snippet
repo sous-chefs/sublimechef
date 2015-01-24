@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-include_recipe "${0:example::recipe}"
+include_recipe '${0:example::recipe}'
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-notifies :${1:restart}, "${2:service}[${3:name}]"
+notifies :${1:restart}, '${2:service}[${3:name}]'
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>notifies</tabTrigger>
