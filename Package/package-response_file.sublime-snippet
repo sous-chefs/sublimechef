@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-package "${1:name}" do
+package '${1:name}' do
 	action :${2:install}
-	response_file "${3:name.seed}"
+	response_file '${3:name.seed}'
 end
 
 ]]></content>

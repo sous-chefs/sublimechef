@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-ohai "reload" do
+ohai 'reload' do
 	action :reload
 end
 

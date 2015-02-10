@@ -1,22 +1,22 @@
 <snippet>
   <content><![CDATA[
-name             "example"
-maintainer       "YOUR_COMPANY_NAME"
-maintainer_email "YOUR_EMAIL"
-license          "All rights reserved"
-description      "Installs/Configures example"
+name             'example'
+maintainer       'The Authors'
+maintainer_email 'you@example.com'
+license          'All rights reserved'
+description      'Installs/Configures example'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.0"
-depends          "package"
-attribute        "pets/cat/name",:display_name => "Cat Name"
-grouping         "pets/cat",:title => "Cat Options"
-conflicts        "package"
-provides         "service[example]"
-recipe           "example::one", "Description for example"
-recommends       "package"
-replaces         "package"
-supports         "ubuntu"
-suggests         "package"
+version          '0.1.0'
+depends          'package'
+attribute        'pets/cat/name',:display_name => 'Cat Name'
+grouping         'pets/cat',:title => 'Cat Options'
+conflicts        'package'
+provides         'service[example]'
+recipe           'example::one', 'Description for example'
+recommends       'package'
+replaces         'package'
+supports         'ubuntu'
+suggests         'package'
 $0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

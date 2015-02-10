@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-directory "${1:name}" do
-	action :${2:create}
-	owner "${3:root}"
-	group "${4:root}"
-	mode "${5:0755}"
-	path "${6:name}"
-	recursive ${7:false}
+directory '${1:name}' do
+	owner '${2:root}'
+	group '${3:root}'
+	mode '${4:0755}'
+	path '${5:name}'
+	recursive ${6:false}
+	action :${7:create}
 end
 
 ]]></content>
