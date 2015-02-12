@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+ChefSpec::SoloRunner.new do |node|
+  ${1:# Do something here...}
+end.converge(described_recipe)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>SoloRunnerf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>SoloRunner Block</description>
+</snippet>
