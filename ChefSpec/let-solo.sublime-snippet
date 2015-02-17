@@ -3,7 +3,7 @@
 let(:chef_run) do
   ChefSpec::SoloRunner.new do |node|
     ${1:# Do something here}
-  end.converge(described_recipe) 
+  end.converge(described_recipe)
 end
 
 ]]></content>
