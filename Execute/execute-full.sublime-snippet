@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
 execute '${1:name}' do
-	action :${2:run}
-	command '${3:ls -la}'
-	creates '${4:/tmp/something}'
-	cwd '${5:/tmp}'
-	environment ({${6:'HOME' => '/home/myhome'}})
-	user '${7:root}'
-	group '${8:root}'
-	path '${9:['/opt/bin','/opt/sbin']}'
-	timeout ${10:3600}
-	returns ${11:0}
-	umask '${12:022}'
+  action :${2:run}
+  command '${3:ls -la}'
+  creates '${4:/tmp/something}'
+  cwd '${5:/tmp}'
+  environment ({${6:'HOME' => '/home/myhome'}})
+  user '${7:root}'
+  group '${8:root}'
+  path '${9:['/opt/bin','/opt/sbin']}'
+  timeout ${10:3600}
+  returns ${11:0}
+  umask '${12:022}'
 end
 
 ]]></content>

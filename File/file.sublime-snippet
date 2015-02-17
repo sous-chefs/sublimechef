@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 file '${1:name}' do
-	action :create
-	owner 'root'
-	group 'root'
-	mode '0644'
+  action :create
+  owner 'root'
+  group 'root'
+  mode '0644'
 end
 
 ]]></content>

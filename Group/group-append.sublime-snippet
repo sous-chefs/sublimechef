@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 group '${1:name}' do
-	action :create
-	gid ${2:999}
-	members [${3:'paco'}]
-	append ${4:true}
+  action :create
+  gid ${2:999}
+  members [${3:'paco'}]
+  append ${4:true}
 end
 
 ]]></content>

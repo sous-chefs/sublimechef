@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 http_request '${1:some message}' do
-	url '${2:http://example.com/check_in}'
+  url '${2:http://example.com/check_in}'
 end
 
 ]]></content>

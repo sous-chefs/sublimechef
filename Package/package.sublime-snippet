@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 package '${1:name}' do
-	action :${2:install}
+  action :${2:install}
 end
 
 ]]></content>

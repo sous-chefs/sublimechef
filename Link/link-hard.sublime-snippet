@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 link '${1:/tmp/passwd}' do
-	to '${2:/etc/passwd}'
-	link_type :hard
+  to '${2:/etc/passwd}'
+  link_type :hard
 end
 
 ]]></content>

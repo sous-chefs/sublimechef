@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 service '${1:name}' do
-	pattern '${2:pattern}'
-	supports :status => ${3:true}, :restart => ${4:true}, :reload => ${5:true}
-	action ${6:[ :start, :enable ]}
+  pattern '${2:pattern}'
+  supports :status => ${3:true}, :restart => ${4:true}, :reload => ${5:true}
+  action ${6:[:start, :enable]}
 end
 
 ]]></content>
