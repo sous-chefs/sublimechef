@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+RSpec.configure do |config|
+  # Specify the path for Chef Solo to find cookbooks (default: [inferred from
+  # the location of the calling spec file])
+  config.cookbook_path = '${1:/var/cookbooks}'
+
+  # Specify the path for Chef Solo to find roles (default: [ascending search])
+  config.role_path = '${2:/var/roles}'
+
+  # Specify the path for Chef Solo to find environments (default: [ascending search])
+  config.environment_path = '${3:/var/environments}'
+
+  # Specify the path for Chef Solo file cache path (default: nil)
+  config.file_cache_path = '${4:/var/chef/cache}'
+
+  # Specify the Chef log_level (default: :warn)
+  config.log_level = ${5::debug}
+
+  # Specify the path to a local JSON file with Ohai data (default: nil)
+  config.path = '${6:ohai.json}'
+
+  # Specify the operating platform to mock Ohai data from (default: nil)
+  config.platform = ${7:'ubuntu}'
+
+  # Specify the operating version to mock Ohai data from (default: nil)
+  config.version = '${8:12.04}'
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>RSpec.configure</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>Configure Chefspec</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+let(:chef_run) do
+  ChefSpec::ServerRunner.new do |node, server|
+    ${1:# Do something here}
+  end.converge(described_recipe)
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>letserver</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>let server do</description>
+</snippet>

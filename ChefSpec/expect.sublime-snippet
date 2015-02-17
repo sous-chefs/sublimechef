@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+expect(${1:chef_run}).to 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>expect to</description>
+</snippet>
