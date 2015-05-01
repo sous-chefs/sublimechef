@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
 subversion '${1:name}' do
-	destination '${2:/opt/mysources/couch}'
-	repository '${3:http://svn.apache.org/repos/asf/couchdb/trunk}'
-	revision '${4:HEAD}'
-	user '${5:user}'
-	group '${6:test}'
-	action :sync
+  destination '${2:/opt/mysources/couch}'
+  repository '${3:http://svn.apache.org/repos/asf/couchdb/trunk}'
+  revision '${4:HEAD}'
+  user '${5:user}'
+  group '${6:test}'
+  action :sync
 end
 
 ]]></content>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 link '${1:/tmp/passwd}' do
-	to '${2:/etc/passwd}'
+  to '${2:/etc/passwd}'
 end
 
 ]]></content>

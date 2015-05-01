@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 mount '${1:/mnt/volume1}' do
-	device '${2:volume1}'
-	device_type :label
-	fstype '${3:xfs}'
-	options '${4:rw}'
+  device '${2:volume1}'
+  device_type :label
+  fstype '${3:xfs}'
+  options '${4:rw}'
 end
 
 ]]></content>

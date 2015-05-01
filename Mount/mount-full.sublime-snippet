@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 mount '${1:/mnt/volume1}' do
-	device '${2:/dev/sda}'
-	device_type :${3:device}
-	fstype '${4:xfs}'
-	options '${5:rw}'
-	dump ${6:0}
-	pass ${7:2}
-	action [${8::mount, :enable}]
+  device '${2:/dev/sda}'
+  device_type :${3:device}
+  fstype '${4:xfs}'
+  options '${5:rw}'
+  dump ${6:0}
+  pass ${7:2}
+  action [${8::mount, :enable}]
 end
 
 ]]></content>
