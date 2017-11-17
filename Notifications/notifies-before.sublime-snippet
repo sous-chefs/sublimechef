@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+notifies :${1:restart}, '${2:service}[${3:name}]', :before
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>notifiesb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>notifies before</description>
+</snippet>
