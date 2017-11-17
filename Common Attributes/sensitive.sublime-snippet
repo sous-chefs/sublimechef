@@ -6,5 +6,5 @@ sensitive  ${1:true}
 	<tabTrigger>sensitive</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>sensitive</description>
+	<description>sensitive true</description>
 </snippet>
