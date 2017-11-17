@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+ksh '${1:install something}' do
+  user '${2:root}'
+  cwd '${3:/tmp}'
+  code <<-EOH
+  $0
+  EOH
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ksh</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>ksh script</description>
+</snippet>

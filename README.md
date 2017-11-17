@@ -22,11 +22,12 @@ These are the available completions:
 
 ```
 actionn
-bash
+bash_script
 cookbook_file
 cookbook_filef
 cron
 cronf
+csh_script
 deploy
 directory
 directoryf
@@ -46,6 +47,7 @@ http_request
 http_requestp
 ignoref
 include_recipe
+ksh_script
 link
 linkf
 linkh
@@ -70,8 +72,8 @@ package
 packageo
 packager
 packagev
-perl
-python
+perl_script
+python_script
 remote_directory
 remote_directoryf
 remote_file
@@ -79,7 +81,7 @@ remote_filef
 remote_filem
 retries
 role
-ruby
+ruby_script
 ruby_block
 script
 service

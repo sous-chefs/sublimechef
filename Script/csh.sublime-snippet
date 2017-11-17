@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+csh '${1:install something}' do
+  user '${2:root}'
+  cwd '${3:/tmp}'
+  code <<-EOH
+  $0
+  EOH
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>csh</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>csh script</description>
+</snippet>
