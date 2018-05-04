@@ -13,7 +13,7 @@ If you have Package Control installed in Sublime Text just press ctrl+shift+p (W
 You can also install this package manually by entering the Packages directory of Sublime Text and issuing on a terminal:
 
 ```
-git clone https://github.com/cabeca/SublimeChef Chef
+git clone https://github.com/sous-chefs/SublimeChef Chef
 ```
 
 ## Completions
