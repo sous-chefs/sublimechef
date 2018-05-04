@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-supports status: :${1:true}, restart: :${2:true}, reload: :${3:true}
+guard_interpreter :${1:bash}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>supports</tabTrigger>
+	<tabTrigger>guard</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>supports</description>
+	<description>guard_interpreter :bash</description>
 </snippet>

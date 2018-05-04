@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-provider Chef::Provider::${1:Package::Rubygems}
+sensitive  ${1:true}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>provider</tabTrigger>
+	<tabTrigger>sensitive</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>provider</description>
+	<description>sensitive true</description>
 </snippet>

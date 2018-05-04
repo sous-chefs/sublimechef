@@ -1,10 +1,16 @@
 <snippet>
 	<content><![CDATA[
-supports status: :${1:true}, restart: :${2:true}, reload: :${3:true}
+ksh '${1:install something}' do
+  user '${2:root}'
+  cwd '${3:/tmp}'
+  code <<-EOH
+  $0
+  EOH
+end
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>supports</tabTrigger>
+	<tabTrigger>ksh</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>supports</description>
+	<description>ksh script</description>
 </snippet>
