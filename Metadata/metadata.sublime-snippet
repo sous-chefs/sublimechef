@@ -5,8 +5,10 @@ maintainer       '${2:The Authors}'
 maintainer_email '${3:you@example.com}'
 license          '${4:All rights reserved}'
 description      '${5:Installs/Configures example}'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '${6:0.1.0}'
+chef_version     '>= 13.0'
+issues_url       'http://www.github.com/johndoe/my_cookbook/issues'
+source_url       'http://www.github.com/johndoe/my_cookbook'
 
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

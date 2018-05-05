@@ -10,6 +10,9 @@ version          '0.1.0'
 depends          'package'
 recipe           'example::one', 'Description for example'
 supports         'ubuntu'
+chef_version     '>= 13.0'
+issues_url       'http://www.github.com/johndoe/my_cookbook/issues'
+source_url       'http://www.github.com/johndoe/my_cookbook'
 $0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

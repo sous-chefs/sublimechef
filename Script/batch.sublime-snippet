@@ -1,13 +1,17 @@
 <snippet>
 	<content><![CDATA[
-env '${1:ComSpec}' do
-  value '${2:C:\\Windows\\system32\\cmd.exe}'
+batch '${1:install something}' do
+  architecture '${2::x86_64}'
+  user '${3:Adminstrator}'
+  cwd '${4:C:\some_dir}'
+  code <<-EOH
+  $0
+  EOH
 end
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>env</tabTrigger>
+	<tabTrigger>batch</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>env for windows</description>
+	<description>batch script</description>
 </snippet>
