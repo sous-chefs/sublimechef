@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+apt_update '${1:Periodic apt-update}' do
+  frequency '${2:86400}'
+  action :periodic
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apt-updatep</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>apt-update periodic</description>
+</snippet>
