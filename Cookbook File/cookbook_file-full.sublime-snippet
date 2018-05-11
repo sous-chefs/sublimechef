@@ -9,6 +9,10 @@ cookbook_file '${1:name}' do
   mode '${7:0644}'
   backup ${8:5}
   cookbook '${9:cookbook}'
+  atomic_update ${10:true}
+  manage_symlink_source ${11:true}
+  force_unlink ${12:true}
+  verify '${13:/bin/foo --verify_config}'
 end
 
 ]]></content>
