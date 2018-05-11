@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+chef_gem '${1:name}' do
+  compile_time ${2:true}
+  clear_sources ${3:true}
+  include_default_source ${4:true}
+  source '${5:/tmp/mygem.gem}'
+  version '${6:5.0.0}'
+  timeout ${7:60}
+  package_name '${8:name}'
+  options '${9:--no-rdoc}'
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>chef_gemf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>chef_gem with full options</description>
+</snippet>
