@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+yum_package '${1:name}' do
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>yum_package</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>yum_package</description>
+</snippet>
