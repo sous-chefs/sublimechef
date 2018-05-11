@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+apt_repository '${1:name}' do
+  uri '${2:http://foo.com/bar}'
+  components ['${3:main}']
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apt-repository</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>apt-repository</description>
+</snippet>

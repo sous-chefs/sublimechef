@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+apt_repository '${1:name}' do
+  uri '${2:http://foo.com/bar}'
+  components ['${3:main}']
+  repo_name '${4:name}'
+  distribution '${5:trusty}'
+  arch '${6:amd64}'
+  trusted ${7:true}
+  deb_src ${8:false}
+  keyserver '${9:keyserver.ubuntu.com}'
+  key '${10:http://www.foo.com/repo.key}'
+  key_proxy '${11:http://proxy.foo.com:3128}'
+  cache_rebuild ${12:true}
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>apt-repositoryf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>apt-repository with all options</description>
+</snippet>
