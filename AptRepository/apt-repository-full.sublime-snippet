@@ -16,8 +16,8 @@ end
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>apt-repositoryf</tabTrigger>
+	<tabTrigger>apt_repositoryf</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.ruby</scope>
-	<description>apt-repository with all options</description>
+	<description>apt_repository with all options</description>
 </snippet>
