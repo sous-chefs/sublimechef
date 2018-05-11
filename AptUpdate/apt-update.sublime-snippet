@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-apt_update '${1:Update apt cache}'
+apt_update
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>apt-update</tabTrigger>
