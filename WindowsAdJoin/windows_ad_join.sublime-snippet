@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+windows_ad_join '${1:domain.example.com}' do
+  domain_user '${2:nick}'
+  domain_password '${3:p@ssw0rd1}'
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>windows_ad_join</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>windows_ad_join</description>
+</snippet>
