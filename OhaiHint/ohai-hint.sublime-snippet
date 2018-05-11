@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+ohai_hint 'ec2' do
+  action :create
+  content '${1:Data to pass}'
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ohaih</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>ohai hint</description>
+</snippet>
