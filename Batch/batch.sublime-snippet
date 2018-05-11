@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+batch '${1:name}' do
+  code <<-EOH
+    script contents
+    EOH
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>batch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>batch</description>
+</snippet>
