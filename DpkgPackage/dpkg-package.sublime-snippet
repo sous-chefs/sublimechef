@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+dpkg_package '${1:name}' do
+  source '${2:/path/to/package.deb}'
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dpkg_package</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>dpkg_package</description>
+</snippet>
