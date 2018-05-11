@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+smartos_package '${1:name}' do
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>smartos_package</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>smartos_package</description>
+</snippet>

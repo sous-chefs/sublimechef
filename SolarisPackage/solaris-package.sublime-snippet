@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+solaris_package '${1:name}' do
+  source '${2:/packages_directory}'
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>solaris_package</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>solaris_package</description>
+</snippet>

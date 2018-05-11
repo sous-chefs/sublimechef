@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+rpm_package '${1:name}' do
+  source '${2:/path/to/package.rpm}'
+  action :install
+end
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rpm_package</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+	<description>rpm_package</description>
+</snippet>
