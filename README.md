@@ -11,6 +11,10 @@ This Package provides several code snippets designed to make writing chef recipe
 
 Maybe this is better explained with a [youtube demo video](http://www.youtube.com/watch?v=4VtDj_ar1Xg).
 
+## Maintainers
+
+This cookbook is maintained by the Sous Chefs. The Sous Chefs are a community of Chef cookbook maintainers working together to maintain important cookbooks. If you’d like to know more please visit [sous-chefs.org](https://sous-chefs.org/) or come chat with us on the Chef Community Slack in [#sous-chefs](https://chefcommunity.slack.com/messages/C2V7B88SF).
+
 ## Install
 
 If you have Package Control installed in Sublime Text just press ctrl+shift+p (Windows, Linux) or cmd+shift+p (OS X) to open the Command Palette. Start typing 'install' to select 'Package Control: Install Package', then search for Chef and select it. That's it.
