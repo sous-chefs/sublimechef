@@ -21,7 +21,7 @@ If you have Package Control installed in Sublime Text just press ctrl+shift+p (W
 
 You can also install this package manually by entering the Packages directory of Sublime Text and issuing on a terminal:
 
-```
+```shell
 git clone https://github.com/sous-chefs/SublimeChef Chef
 ```
 
@@ -29,7 +29,7 @@ git clone https://github.com/sous-chefs/SublimeChef Chef
 
 These are the available completions:
 
-```
+```shell
 actionn
 bash_script
 cookbook_file
