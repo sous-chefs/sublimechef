@@ -1,11 +1,10 @@
 ---
 name: ci
 
-on:
+"on":
   pull_request:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   yamllint:
