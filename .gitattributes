@@ -1,1 +1,7 @@
 * text=auto eol=lf
+.github/ export-ignore
+.circleci/ export-ignore
+.mdlrc export-ignore
+.rubocop.yml export-ignore
+Dangerfile export-ignore
+*.sublime-project export-ignore
