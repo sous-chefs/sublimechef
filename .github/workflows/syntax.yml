@@ -1,0 +1,35 @@
+---
+name: Syntax Tests
+
+"on":
+  push:
+    paths:
+      - ".github/workflows/syntax.yml"
+      - "**.sublime-syntax"
+      - "**/syntax_test*"
+      - "**.tmPreferences"
+  pull_request:
+    paths:
+      - ".github/workflows/syntax.yml"
+      - "**.sublime-syntax"
+      - "**/syntax_test*"
+      - "**.tmPreferences"
+
+jobs:
+  syntax_tests:
+    name: Syntax Tests (${{ matrix.build }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15  # default is 6 hours!
+    strategy:
+      matrix:
+        include:
+          - build: latest  # This is the default
+          # packages: master  # If you depend on a default syntax definition
+          - build: 3210  # Latest known ST3 build with a test binary
+          # packages: v3189   # Latest ST3 tag on the Packages repo
+    steps:
+      - uses: actions/checkout@v3
+      - uses: SublimeText/syntax-test-action@v2
+        with:
+          build: ${{ matrix.build }}
+          # default_packages: ${{ matrix.packages }}
