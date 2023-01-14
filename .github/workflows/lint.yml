@@ -20,8 +20,8 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          # ST3 uses 3.3 internally; 3.5 is the oldest available (and officially supported)
-          python-version: 3.5
+          # ST4 uses 3.8 internally
+          python-version: 3.8.16
       - name: Setup flake8 annotations
         uses: rbialon/flake8-annotations@v1
       - name: Install flake8
