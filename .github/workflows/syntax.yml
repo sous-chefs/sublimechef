@@ -15,37 +15,20 @@ name: Syntax Tests
       - "**.tmPreferences"
 
 jobs:
-  main:
-    name: Syntax Tests (${{ matrix.build }}, ${{ matrix.packages }})
+  syntax_tests:
+    name: Syntax Tests (${{ matrix.build }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15  # default is 6 hours!
     strategy:
       matrix:
         include:
-          # latest dev build
-          # This test must pass, the others are optional
-          # due to changes in the Packages repo that affect our tests.
-          - build: latest
-            packages: v4129
-            continue_on_error: false
-          # last dev & Packages `master`
-          - build: latest
-            packages: master
-            continue_on_error: true
-          # latest stable build
-          - build: 4126
-            packages: v4126
-            continue_on_error: true
-          # earliest stable build supported by the current release branch
-          - build: 4107
-            packages: v4107
-            continue_on_error: true
-    runs-on: ubuntu-latest
+          - build: latest  # This is the default
+          # packages: master  # If you depend on a default syntax definition
+          - build: 3210  # Latest known ST3 build with a test binary
+          # packages: v3189   # Latest ST3 tag on the Packages repo
     steps:
       - uses: actions/checkout@v3
       - uses: SublimeText/syntax-test-action@v2
         with:
           build: ${{ matrix.build }}
-          default_packages: ${{ matrix.packages }}
-        # On the step level, this does not cause the entire job to fail
-        # and thus mark PRs as failing when only one of our tests failed.
-        # See also https://github.com/github/feedback/discussions/15452.
-        continue-on-error: ${{ matrix.continue_on_error }}
+          # default_packages: ${{ matrix.packages }}
