@@ -17,6 +17,8 @@ Standardise files with files in sous-chefs/repo-management
 
 Standardise files with files in sous-chefs/repo-management
 
+Standardise files with files in sous-chefs/repo-management
+
 - Added a Changelog #36
 - Remove all the unneeded chef files
 - Add all Sublime Text Package tests
