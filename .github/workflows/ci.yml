@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run yaml Lint
         uses: actionshub/yamllint@main
 
@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run Markdown Lint
-        uses: DavidAnson/markdownlint-cli2-action@v13
+        uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: "**/*.md"
