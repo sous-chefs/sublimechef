@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           # ST4 uses 3.8 internally
-          python-version: 3.8.16
+          python-version: 3.13.6
       - name: Setup flake8 annotations
         uses: rbialon/flake8-annotations@v1
       - name: Install flake8
