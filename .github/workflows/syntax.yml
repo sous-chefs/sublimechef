@@ -28,7 +28,7 @@ jobs:
           - build: 3210  # Latest known ST3 build with a test binary
           # packages: v3189   # Latest ST3 tag on the Packages repo
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: SublimeText/syntax-test-action@v2
         with:
           build: ${{ matrix.build }}
