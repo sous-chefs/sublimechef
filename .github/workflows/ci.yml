@@ -21,6 +21,6 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v7
       - name: Run Markdown Lint
-        uses: DavidAnson/markdownlint-cli2-action@v24
+        uses: DavidAnson/markdownlint-cli2-action@v25
         with:
           globs: "**/*.md"
